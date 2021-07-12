@@ -1,0 +1,6 @@
+com\objects\rest\VerifyAccount.class
+com\objects\rest\FundTransfer.class
+com\objects\rest\Base.class
+com\testcases\rest\TestRest.class
+com\objects\rest\Login.class
+com\variables\rest\VariableRepo.class

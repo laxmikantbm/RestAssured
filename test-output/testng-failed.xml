@@ -6,7 +6,7 @@
       <class name="com.testcases.rest.TestRest">
         <methods>
           <include name="setup"/>
-          <include name="LoginVerify"/>
+          <include name="logOut"/>
         </methods>
       </class> <!-- com.testcases.rest.TestRest -->
     </classes>

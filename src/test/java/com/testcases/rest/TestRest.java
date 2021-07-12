@@ -6,6 +6,7 @@ import com.objects.rest.Base;
 import com.objects.rest.FundTransfer;
 import com.objects.rest.Login;
 import com.objects.rest.VerifyAccount;
+import com.objects.rest.VerifyLogout;
 
 public class TestRest extends Base {
 	
@@ -39,4 +40,10 @@ public class TestRest extends Base {
 		ft.fTransfer(authKey2);
 	}
 
+	@Test(priority=4)
+	public void logOut() {
+		VerifyLogout lg= new VerifyLogout();
+		lg.logOut();
+	}
+	
 }

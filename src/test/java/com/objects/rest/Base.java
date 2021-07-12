@@ -2,8 +2,6 @@ package com.objects.rest;
 
 import org.testng.annotations.BeforeTest;
 
-import com.variables.rest.VariableRepo;
-
 import io.restassured.RestAssured;
 
 public class Base{
