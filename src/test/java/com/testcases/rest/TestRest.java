@@ -51,19 +51,24 @@ public class TestRest extends Base {
 	public void fundTranfer() {
 		ExtentTest test = extent.createTest("Funds Transfer");
 		FundTransfer ft= new FundTransfer();
+		test.info("Initating Fund transfer");
 		ft.fTransfer(authKey2);
 		test.info("Funds trasfer is successfull between two accounts");
 		test.log(Status.INFO, "Success");
 		extent.flush();
 	}
 
+	
 	@Test(priority=4)
-	public void logOut() {
+	public void logOut() throws Exception {
 		ExtentTest test = extent.createTest("Verify Logout");
 		VerifyLogout lg= new VerifyLogout();
-		test.info("User Logout");
-		test.info("Logout Verified !");
 		lg.logOut();
+		test.info("User Loged out");
+		Thread.sleep(2000);
+		test.info("Attempting to login");
+		lg.verifyOut();
+		test.info("User Logout verified");
 		extent.flush();
 	}
 	

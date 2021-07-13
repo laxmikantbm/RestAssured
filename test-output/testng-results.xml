@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-13T14:15:53 IST" name="Default suite" finished-at="2021-07-13T14:16:16 IST" duration-ms="23319">
+  <suite started-at="2021-07-13T16:15:11 IST" name="Suite" finished-at="2021-07-13T16:15:36 IST" duration-ms="24204">
     <groups>
     </groups>
-    <test started-at="2021-07-13T14:15:53 IST" name="Default test" finished-at="2021-07-13T14:16:16 IST" duration-ms="23319">
+    <test started-at="2021-07-13T16:15:11 IST" name="Rest Assured" finished-at="2021-07-13T16:15:36 IST" duration-ms="24204">
       <class name="com.testcases.rest.TestRest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.rest.TestRest@618425b5]" started-at="2021-07-13T14:15:53 IST" name="setup" finished-at="2021-07-13T14:15:54 IST" duration-ms="1235" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.rest.TestRest@618425b5]" started-at="2021-07-13T16:15:11 IST" name="setup" finished-at="2021-07-13T16:15:13 IST" duration-ms="2011" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginVerify()[pri:1, instance:com.testcases.rest.TestRest@618425b5]" started-at="2021-07-13T14:15:54 IST" name="loginVerify" finished-at="2021-07-13T14:16:09 IST" duration-ms="14225" status="PASS">
+        <test-method signature="loginVerify()[pri:1, instance:com.testcases.rest.TestRest@618425b5]" started-at="2021-07-13T16:15:13 IST" name="loginVerify" finished-at="2021-07-13T16:15:25 IST" duration-ms="11459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginVerify -->
-        <test-method signature="accountDetails()[pri:2, instance:com.testcases.rest.TestRest@618425b5]" started-at="2021-07-13T14:16:09 IST" name="accountDetails" finished-at="2021-07-13T14:16:12 IST" duration-ms="3305" status="PASS">
+        <test-method signature="accountDetails()[pri:2, instance:com.testcases.rest.TestRest@618425b5]" started-at="2021-07-13T16:15:25 IST" name="accountDetails" finished-at="2021-07-13T16:15:28 IST" duration-ms="2919" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountDetails -->
-        <test-method signature="fundTranfer()[pri:3, instance:com.testcases.rest.TestRest@618425b5]" started-at="2021-07-13T14:16:12 IST" name="fundTranfer" finished-at="2021-07-13T14:16:15 IST" duration-ms="2588" status="PASS">
+        <test-method signature="fundTranfer()[pri:3, instance:com.testcases.rest.TestRest@618425b5]" started-at="2021-07-13T16:15:28 IST" name="fundTranfer" finished-at="2021-07-13T16:15:29 IST" duration-ms="1406" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fundTranfer -->
-        <test-method signature="logOut()[pri:4, instance:com.testcases.rest.TestRest@618425b5]" started-at="2021-07-13T14:16:15 IST" name="logOut" finished-at="2021-07-13T14:16:16 IST" duration-ms="1886" status="PASS">
+        <test-method signature="logOut()[pri:4, instance:com.testcases.rest.TestRest@618425b5]" started-at="2021-07-13T16:15:29 IST" name="logOut" finished-at="2021-07-13T16:15:36 IST" duration-ms="6333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOut -->
       </class> <!-- com.testcases.rest.TestRest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Rest Assured -->
+  </suite> <!-- Suite -->
 </testng-results>
