@@ -1,15 +1,12 @@
 package com.objects.rest;
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 
 import com.variables.rest.VariableRepo;
 
-import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import io.restassured.http.Headers;
-import io.restassured.response.Response;
 
+import io.restassured.response.Response;
+import org.hamcrest.MatcherAssert;
 import static io.restassured.RestAssured.*;
 
 public class Login extends VariableRepo {
@@ -39,7 +36,7 @@ public class Login extends VariableRepo {
 		System.out.println(login()+"\n");
 		System.out.println("////////////////////////////////////////////////\n");
 		System.err.println("User Login Verified ! \n");
-		
+		//assertStatusCode(logIn.statusCode(),400);		
 		
 	}
 	

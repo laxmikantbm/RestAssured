@@ -1,28 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="com.testcases.rest.TestRest" duration-ms="16057" started-at="2021-07-12T21:38:00 IST" finished-at="2021-07-12T21:38:16 IST">
+  <suite name="com.testcases.rest.TestRest" duration-ms="17445" started-at="2021-07-12T22:08:57 IST" finished-at="2021-07-12T22:09:14 IST">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="16057" started-at="2021-07-12T21:38:00 IST" finished-at="2021-07-12T21:38:16 IST">
+    <test name="Command line test" duration-ms="17445" started-at="2021-07-12T22:08:57 IST" finished-at="2021-07-12T22:09:14 IST">
       <class name="com.testcases.rest.TestRest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.rest.TestRest@7b49cea0]" name="setup" is-config="true" duration-ms="1463" started-at="2021-07-12T21:38:00 IST" finished-at="2021-07-12T21:38:02 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.rest.TestRest@7b49cea0]" name="setup" is-config="true" duration-ms="1345" started-at="2021-07-12T22:08:57 IST" finished-at="2021-07-12T22:08:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginVerify()[pri:1, instance:com.testcases.rest.TestRest@7b49cea0]" name="loginVerify" duration-ms="10655" started-at="2021-07-12T21:38:02 IST" finished-at="2021-07-12T21:38:12 IST">
+        <test-method status="PASS" signature="loginVerify()[pri:1, instance:com.testcases.rest.TestRest@7b49cea0]" name="loginVerify" duration-ms="10859" started-at="2021-07-12T22:08:58 IST" finished-at="2021-07-12T22:09:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginVerify -->
-        <test-method status="PASS" signature="accountDetails()[pri:2, instance:com.testcases.rest.TestRest@7b49cea0]" name="accountDetails" duration-ms="2538" started-at="2021-07-12T21:38:12 IST" finished-at="2021-07-12T21:38:15 IST">
+        <test-method status="PASS" signature="accountDetails()[pri:2, instance:com.testcases.rest.TestRest@7b49cea0]" name="accountDetails" duration-ms="2485" started-at="2021-07-12T22:09:09 IST" finished-at="2021-07-12T22:09:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountDetails -->
-        <test-method status="PASS" signature="fundTranfer()[pri:3, instance:com.testcases.rest.TestRest@7b49cea0]" name="fundTranfer" duration-ms="1322" started-at="2021-07-12T21:38:15 IST" finished-at="2021-07-12T21:38:16 IST">
+        <test-method status="PASS" signature="fundTranfer()[pri:3, instance:com.testcases.rest.TestRest@7b49cea0]" name="fundTranfer" duration-ms="1245" started-at="2021-07-12T22:09:12 IST" finished-at="2021-07-12T22:09:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fundTranfer -->
+        <test-method status="PASS" signature="logOut()[pri:4, instance:com.testcases.rest.TestRest@7b49cea0]" name="logOut" duration-ms="1441" started-at="2021-07-12T22:09:13 IST" finished-at="2021-07-12T22:09:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
       </class> <!-- com.testcases.rest.TestRest -->
     </test> <!-- Command line test -->
   </suite> <!-- com.testcases.rest.TestRest -->
