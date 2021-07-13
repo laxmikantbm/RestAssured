@@ -6,7 +6,8 @@
       <class name="com.testcases.rest.TestRest">
         <methods>
           <include name="setup"/>
-          <include name="logOut"/>
+          <include name="accountDetails"/>
+          <include name="fundTranfer"/>
         </methods>
       </class> <!-- com.testcases.rest.TestRest -->
     </classes>
