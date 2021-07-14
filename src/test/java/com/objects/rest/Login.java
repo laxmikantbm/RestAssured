@@ -16,6 +16,7 @@ public class Login extends VariableRepo {
 	
 	//This method will login user and generates and return the Authorization key
 	public String login() {
+		
 		Response res = given()
 				             .body(creds).accept(ContentType.JSON).
 		               when()

@@ -19,6 +19,7 @@ public class Base{
 		RestAssured.baseURI = baseUri;
 		RestAssured.useRelaxedHTTPSValidation();
 		
+		
 	
 		ExtentSparkReporter reporter  = new  ExtentSparkReporter("Reports\\report.html");
 		reporter.config().setDocumentTitle("Rest Assured");
