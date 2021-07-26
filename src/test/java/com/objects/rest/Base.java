@@ -31,8 +31,7 @@ public class Base{
 		
 		extent.setSystemInfo("Company Name", "Brillio");
 		extent.setSystemInfo("Project Name", "Rest Assured automation testing");
-		
-		
+        
 		
 	}
 	

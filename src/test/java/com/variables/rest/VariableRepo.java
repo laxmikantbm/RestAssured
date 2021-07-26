@@ -2,7 +2,7 @@ package com.variables.rest;
 
 public class VariableRepo {
 	
-	
+	// Variable Repo to Store variables 
 	public String auth ="Authorization";
 	
 	public String acnt = "/account/";

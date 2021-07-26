@@ -10,6 +10,7 @@ import com.objects.rest.Login;
 import com.objects.rest.VerifyAccount;
 import com.objects.rest.VerifyLogout;
 
+
 public class TestRest extends Base {
 	
 	
@@ -58,7 +59,7 @@ public class TestRest extends Base {
 		extent.flush();
 	}
 
-	
+	//Verifying Logout 
 	@Test(priority=4)
 	public void logOut() throws Exception {
 		ExtentTest test = extent.createTest("Verify Logout");
@@ -69,6 +70,8 @@ public class TestRest extends Base {
 		test.info("Attempting to login");
 		lg.verifyOut();
 		test.info("User Logout verified");
+		
+
 		extent.flush();
 	}
 	
